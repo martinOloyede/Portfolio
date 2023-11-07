@@ -1,0 +1,227 @@
+/*Container 2 Section */
+h1{
+  text-align: center;
+ }
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+
+
+.container-2{
+  width: 100%;
+  margin: auto; 
+  display: flex;
+  justify-content: center;
+
+  
+}
+
+.blog-post-area{
+ width: 80%;  
+ display: flex;
+ justify-content:space-evenly;
+  margin-top: 30px;
+}
+
+.blog-post{
+ width: 30%;
+ height: 100%;
+ margin-top:10px;
+ cursor: pointer;
+
+ 
+}
+
+
+.blog-post:hover .all-btn1{
+  visibility: visible;
+ }
+
+
+ .blog-post:hover .all-btn2{
+  visibility: visible;
+ }
+
+
+ .blog-post:hover .all-btn3{
+  visibility: visible;
+ }
+
+ .blog-post:hover .all-btn4{
+  visibility: visible;
+ }
+
+ .blog-post:hover .all-btn5{
+  visibility: visible;
+ }
+
+ .blog-post:hover .all-btn6{
+  visibility: visible;
+ }
+
+
+
+.blog-post:hover img{
+  transform: scale(1.1);
+  transition: 0.9s ease;
+ 
+
+}
+
+.all-btn1, .all-btn2, .all-btn3, .all-btn4, .all-btn5, .all-btn6{
+    padding: 10px 24px;
+    border-radius: 500px;
+    background-color: blue;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    top: 30%;
+    right: 72%;
+    opacity: 0.8;
+    visibility: hidden;
+}
+
+
+.all-btn2{
+  position: absolute;
+  top: 30%;
+  right: 46%;
+}
+
+.all-btn3{
+  position: absolute;
+  top: 30%;
+  right: 20%;
+}
+
+
+.all-btn4{
+  position: absolute;
+  top: 65%;
+  right: 72%;
+}
+
+.all-btn5{
+  position: absolute;
+  top: 65%;
+  right: 46%;
+}
+
+
+.all-btn6{
+  position: absolute;
+  top: 65%;
+  right: 20%;
+}
+
+
+
+
+.blog-post > h3 {
+   font-size: 20px;
+   margin-top: 15px;
+   font-weight: 600;
+   text-align: center;
+}
+
+.blog-post > h6{
+ font-size: 18px;
+ margin-top: 10px;
+ text-align: center;
+}
+
+
+
+
+/* Mobile View */
+@media screen and (max-width: 600px) {
+  .container-2{
+    width: 100%;
+    margin: auto; 
+    display: flex;
+  }
+  
+  .blog-post-area{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-post{
+  width: 80%;
+  height: 100%;
+}
+
+.all-btn1, .all-btn2, .all-btn3, .all-btn4, .all-btn5, .all-btn6{
+  padding: 10px 24px;
+  border-radius: 500px;
+  background-color: blue;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  border: none;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  top: 28%;
+  right: 37%;
+  opacity: 0.8;
+  visibility: hidden;
+}
+
+
+.all-btn2{
+  position: absolute;
+  top: 55%;
+  right: 37%;
+}
+
+
+.all-btn3{
+  position: absolute;
+  top: 83%;
+  right: 37%;
+}
+
+
+.all-btn4{
+  position: absolute;
+  top: 115%;
+  right: 37%;
+}
+
+
+
+.all-btn5{
+  position: absolute;
+  top: 143%;
+  right: 37%;
+}
+
+
+.all-btn6{
+  position: absolute;
+  top: 170%;
+  right: 37%;
+}
+
+}
+
+
+
