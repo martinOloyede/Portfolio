@@ -443,7 +443,7 @@
     width: 82%;
     margin: 0 5%;
     display:flex;
-    align-item:center;
+    align-items:center;
     justify-content: space-evenly;     
   }
     

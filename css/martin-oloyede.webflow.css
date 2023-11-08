@@ -1011,7 +1011,6 @@ body {
 /*CSS from me */
 
 
-
 .image {
   opacity: 1;
   display: block;
@@ -1093,7 +1092,7 @@ body {
 }
 
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 500px) and (min-width: 390px) {
   .image {
     opacity: 1;
     display: block;
@@ -1107,8 +1106,8 @@ body {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 65%;
-    left: 32%;
+    top: 18%;
+    left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
@@ -1116,27 +1115,27 @@ body {
   
   .middle1 {
     position: absolute;
-    top: 35%;
+    top: 32%;
     left: 50%;
   }
   
   .middle3 {
     position: absolute;
-    top: 75%;
-    left: 32%;
+    top: 57%;
+    left: 50%;
   }
   
   
   .middle4 {
     position: absolute;
-    top: 75%;
+    top: 73%;
     left: 50%;
   }
   
   .middle5 {
     position: absolute;
-    top: 75%;
-    left: 68%;
+    top: 88%;
+    left: 50%;
   }
   
   .blog-post:hover .image {
