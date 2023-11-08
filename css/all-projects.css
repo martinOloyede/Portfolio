@@ -149,7 +149,7 @@ h6 {
 
 
 /* Mobile View */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) and (min-width: 390px) {
   .container-2{
     width: 100%;
     margin: auto; 
