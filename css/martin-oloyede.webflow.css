@@ -1020,20 +1020,6 @@ body {
   backface-visibility: hidden;
 }
 
-
-
-.middle4 {
-  position: absolute;
-  top: 75%;
-  left: 50%;
-}
-
-.middle5 {
-  position: absolute;
-  top: 75%;
-  left: 68%;
-}
-
 .blog-post:hover .image {
   opacity: 0.6;
   visibility: visible;
@@ -1044,92 +1030,6 @@ body {
   text-align: center;
 
 }
-
-/*
-@media screen and (max-width: 500px) and (min-width: 390px) {
-  .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-  
-  .middle, .middle1, .middle3, .middle4, .middle5 {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 18%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-    }
-  
-  .middle1 {
-    position: absolute;
-    top: 32%;
-    left: 50%;
-  }
-  
-  .middle3 {
-    position: absolute;
-    top: 57%;
-    left: 50%;
-  }
-  
-  
-  .middle4 {
-    position: absolute;
-    top: 73%;
-    left: 50%;
-  }
-  
-  .middle5 {
-    position: absolute;
-    top: 88%;
-    left: 50%;
-  }
-  
-  .blog-post:hover .image {
-    opacity: 0.5;
-    visibility: visible;
-    
-  }
-  
-  .blog-post:hover .middle {
-    opacity: 1;
-  
-  }
-  
-  .blog-post:hover .middle1 {
-    opacity: 1;
-  }
-  
-  .blog-post:hover .middle3 {
-    opacity: 1;
-  }
-  
-  .blog-post:hover .middle4 {
-    opacity: 1;
-  }
-  
-  .blog-post:hover .middle5 {
-    opacity: 1;
-  }
-  
-  .see-project{
-    background-color: #1162ff;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-    text-decoration: none;
-  }
-
-
-
-} */
 
 /*CSS from me */
 

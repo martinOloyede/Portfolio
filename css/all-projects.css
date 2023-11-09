@@ -43,37 +43,12 @@ h6 {
 }
 
 
-.blog-post:hover .all-btn1{
-  visibility: visible;
- }
-
-
- .blog-post:hover .all-btn2{
-  visibility: visible;
- }
-
-
- .blog-post:hover .all-btn3{
-  visibility: visible;
- }
-
- .blog-post:hover .all-btn4{
-  visibility: visible;
- }
-
- .blog-post:hover .all-btn5{
-  visibility: visible;
- }
-
- .blog-post:hover .all-btn6{
-  visibility: visible;
- }
 
 
 
 .blog-post:hover img{
   transform: scale(1.1);
-  transition: 0.9s ease;
+  transition: 0.8s ease;
  
 
 }
@@ -96,38 +71,6 @@ h6 {
     visibility: hidden;
 }
 
-
-.all-btn2{
-  position: absolute;
-  top: 30%;
-  right: 46%;
-}
-
-.all-btn3{
-  position: absolute;
-  top: 30%;
-  right: 20%;
-}
-
-
-.all-btn4{
-  position: absolute;
-  top: 65%;
-  right: 72%;
-}
-
-.all-btn5{
-  position: absolute;
-  top: 65%;
-  right: 46%;
-}
-
-
-.all-btn6{
-  position: absolute;
-  top: 65%;
-  right: 20%;
-}
 
 
 
