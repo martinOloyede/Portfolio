@@ -52,5 +52,23 @@ h6 {
  text-align: center;
 }
 
+/* Mobile View */
+@media screen and (max-width: 500px) and (min-width: 390px) {
+    .container-2{
+      width: 100%;
+      margin: auto; 
+      display: flex;
+    }
+    
+    .blog-post-area{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+  }
 
+  .blog-post{
+    width: 80%;
+    height: 100%;
+  }
+}
 
